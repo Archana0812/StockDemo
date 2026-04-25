@@ -1,4 +1,5 @@
 📈 Stock Watchlist (Flutter + BLoC)
+
 A simple Stock Watchlist Flutter application built using the BLoC (Business Logic Component) pattern.
 The app allows users to view, reorder, and delete stocks from a watchlist using a clean and scalable architecture.
 
