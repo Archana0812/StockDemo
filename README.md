@@ -22,6 +22,26 @@ equatable
 📁 Folder Structure
 
 lib/
+├── bloc/
+│   └── watchlist/
+│       ├── watchlist_bloc.dart
+│       ├── watchlist_event.dart
+│       └── watchlist_state.dart
+├── data/
+│   └── models/
+│       └── stock_model.dart
+├── presentation/
+│   ├── screens/
+│   │   ├── watchlist_screen.dart
+│   │   └── edit_watchlist_screen.dart
+│   └── widgets/
+│       ├── normal_stock_tile.dart
+│       └── edit_stock_tile.dart
+├── utils/
+│   └── dummy_data.dart
+└── main.dart
+
+lib/
 │
 ├── bloc/
 │   └── watchlist/
