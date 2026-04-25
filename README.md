@@ -1,8 +1,10 @@
 📈 Stock Watchlist (Flutter + BLoC)
+
 A simple Stock Watchlist Flutter application built using the BLoC (Business Logic Component) pattern.
 The app allows users to view, reorder, and delete stocks from a watchlist using a clean and scalable architecture.
 
 ✨ Features
+
 📃 View stock watchlist
 ✏️ Edit watchlist using long press
 🔀 Reorder stocks using drag & drop
@@ -11,12 +13,14 @@ The app allows users to view, reorder, and delete stocks from a watchlist using 
 🧱 Clean folder structure (Presentation / BLoC / Data)
 
 🛠 Tech Stack
+
 Flutter
 Dart
 flutter_bloc
 equatable
 
 📁 Folder Structure
+
 lib/
 │
 ├── bloc/
@@ -44,6 +48,7 @@ lib/
 └── main.dart
 
 🧠 Architecture Overview (BLoC)
+
 🔹 Events
 LoadWatchlist – Load initial data
 ReorderStocks – Handle drag & drop reordering
