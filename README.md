@@ -21,6 +21,7 @@ equatable
 
 📁 Folder Structure
 
+```text
 lib/
 ├── bloc/
 │   └── watchlist/
@@ -40,6 +41,7 @@ lib/
 ├── utils/
 │   └── dummy_data.dart
 └── main.dart
+```
 
 lib/
 │
