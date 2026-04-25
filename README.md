@@ -50,31 +50,42 @@ lib/
 🧠 Architecture Overview (BLoC)
 
 🔹 Events
+
 LoadWatchlist – Load initial data
 ReorderStocks – Handle drag & drop reordering
 DeleteStock – Remove a stock
+
 🔹 States
+
 WatchlistLoading
 WatchlistLoaded
+
 🔹 BLoC Responsibilities
+
 Maintain stock list state
 Handle reorder logic
 Handle delete logic
 Emit updated UI states
 
 📱 Screens
+
 1️⃣ Watchlist Screen
+
 Displays all stocks
 Long press on any item to enter Edit mode
+
 2️⃣ Edit Watchlist Screen
+
 Reorder stocks using drag handle
 Delete stocks
 Save button to return to watchlist
 
 🧩 Stock Model
+
 Uses Equatable for efficient state comparison
 Keeps UI rebuilds optimized
 
 🧪 Useful Packages
+
 flutter_bloc: ^8.1.3
 equatable: ^2.0.5
