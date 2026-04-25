@@ -22,9 +22,12 @@ equatable
 📁 Folder Structure
 
 lib/
+
 │
 ├── bloc/
+
 │   └── watchlist/
+
 │       ├── watchlist_bloc.dart
 │       ├── watchlist_event.dart
 │       └── watchlist_state.dart
